@@ -19,7 +19,7 @@ password_input.send_keys(PASSWORD)
 
 login_button = driver.find_element_by_id('btnLogin')
 login_button.click()
-
+time.sleep(6)
 driver.execute_script("document.getElementById('ctl00_ContentPlaceHolder1_lstCourse_ctrl0_btnCourseWebsite').click()")
 
 driver.find_element_by_xpath('/html/body/form/div[3]/div[2]/section[2]/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div/div/div[1]/div[1]').click()
