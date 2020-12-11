@@ -36,7 +36,7 @@ password_input.send_keys(PASSWORD)
 
 login_button = driver.find_element_by_id('btnLogin')
 login_button.click()
-
+time.sleep(6)
 if Course == 1:
     driver.execute_script("document.getElementById('ctl00_ContentPlaceHolder1_lstCourse_ctrl0_btnCourseWebsite').click()")
 else:
